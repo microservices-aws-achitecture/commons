@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict":false,
+    "declaration":true,
+    "rootDir":"src",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "lib",
+    "resolveJsonModule": true
+  },
+  "exclude": [
+    "src/**/__tests__*",
+    "jest.config.ts"
+  ],
+  "lib": ["es2015"]
+}
